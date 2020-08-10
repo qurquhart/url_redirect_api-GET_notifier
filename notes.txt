@@ -1,0 +1,15 @@
+CRUD
+theres a coding garden video on this
+
+write to database;
+    {
+        // unique & required - generated or supplied
+        slug: "ABCdef",
+        // url validator
+        original_url: "http://url.com",
+        // optional
+        update_email: "email@host.com"
+    }
+
+if update_email send email when api processes GET to record
+
